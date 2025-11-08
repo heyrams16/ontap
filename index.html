@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OnTap SPU × HackSPU Live Demo (v2)</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="config.js"></script>
+    <script defer src="qr.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="brand">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="11" stroke="#6ee7ff" stroke-width="2"/>
+          <path d="M8 12h8M12 8v8" stroke="#6ee7ff" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <h1>OnTap SPU <span class="badge">HackSPU 2025 Demo v2</span></h1>
+      </div>
+      <div>Hotkeys: <span class="kbd">L</span> Login • <span class="kbd">T</span> New Team • <span class="kbd">G</span> Add Gig</div>
+    </div>
+    <div class="container">
+      <div class="tabs" id="tabs"></div>
+      <div id="view"></div>
+      <div class="footer">OnTap SPU demo — WebSocket live leaderboard • QR check-ins • Judging</div>
+    </div>
+  </body>
+</html>
